@@ -1,0 +1,181 @@
+/*
+#1 color = #4ACCD1;
+#2 color = #3fbbc0;
+*/
+
+a:hover,
+a:focus {
+    color:#333;
+}
+
+.circled {
+	background: #4ACCD1;
+}
+
+.con1 > div, .con2 > div, .con3 > div { 
+	background-color: #4ACCD1;
+}
+
+.scrollup:hover {
+	background: #4ACCD1;
+}
+.col-sm-3{
+	padding-right:0px;
+}
+.card{
+	background-color: white;
+}
+.card-horizontal{
+	display:flex;
+	flex: 1 1 auto;
+	font-family:bentonsansregular;
+border-style: solid;
+	border-width: thin;
+	border-color:lightgrey;
+	max-height:75px;
+}
+
+img{
+	height:72px;
+}
+.rownav{
+	background-color:#333;
+}
+
+.Evblock{
+	margin-top:170px;
+	margin-left:30px;
+}
+.service-icon span {
+	color: #4ACCD1;
+}
+
+.firstheading{
+	font-family:Bentonsanscondbold;
+	font-size:24px;
+	color:#555555;
+	border-bottom:thick;
+	border-bottom-color:blue;
+}
+.row{
+	padding-top:10px;
+}
+
+
+/* button */
+.btn-skin {
+  background-color: #4ACCD1;
+  border-color: #4ACCD1;
+}
+.Dbsblock{
+	margin-top:30px;
+	margin-left:-15px;
+}
+
+.Phrblock{
+	margin-top:30px;
+	margin-left:40px;
+}
+
+.Effortblock{
+	margin-top:30px;
+	margin-left:-15px;
+}
+
+.Facultyblock{
+	margin-top:30px;
+	margin-left:0px;
+}
+.Procureblock{
+	margin-top:30px;
+	margin-left:0px;
+}
+
+.Otherblock{
+	margin-top:30px;
+	margin-left:0px;
+}
+
+/* top */
+.top-area {
+	background: #7A1705;
+}
+
+/* menu */
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #333;
+}
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
+    color: white;
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #4ACCD1;
+}
+
+
+
+.bg-skin {
+	background: #4ACCD1;
+}
+
+.highlight-color {
+	background-color: #4ACCD1;
+}
+.color {
+	color: #4ACCD1;
+}
+
+/* pricing box  */
+.pricing-content.featured h2,.pricing-content.featured .price-bottom {
+	background-color:#3fbbc0;
+}
+.pricing-content.featured h3 {
+	background:#4ACCD1;
+}
+
+
+
+/* team */
+.cbp-l-grid-team-name {
+    color: #3fbbc0;
+}
+
+.cbp-l-filters-button .cbp-filter-counter {
+	background-color: #4ACCD1;
+}
+
+.cbp-l-filters-alignLeft .cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #4ACCD1;
+    border:1px solid #4ACCD1;
+}
+
+.cbp-l-filters-dropdownWrap {
+    background: #4ACCD1;
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #4ACCD1;
+    border-color: #4ACCD1;
+}
+.cbp-l-caption-buttonLeft,
+.cbp-l-caption-buttonRight {
+    /* @editable properties */
+    background-color: #4ACCD1;
+}
+
+.cbp-l-caption-buttonLeft:hover,
+.cbp-l-caption-buttonRight:hover {
+    /* @editable properties */
+    background-color: #3fbbc0;
+}
+
+.form-control:focus {
+  border-color: #3fbbc0;
+}
