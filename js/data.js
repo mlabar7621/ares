@@ -69,7 +69,8 @@ $(document).ready(function () {
                 },
                 {
                     name: 'Department of Business Services',
-                    cards: [
+                    cards: 
+					[
                         {
                             title: 'DBS Home Page',
                             url: 'http://www.dbs.umd.edu/',
@@ -103,127 +104,6 @@ $(document).ready(function () {
                     ]
 
                 },
-				{
-                name: 'Advisor Services',
-                    cards: [
-                        {
-                            title: 'Advisor Services',
-                            url: 'http://www.sis.umd.edu/catt',
-                            image:'timeentry.png',
-                            alt: 'Go to Advisor Services'
-                        }
-							]
-				},
-				{
-                name: 'Budget and Fiscal Analysis',
-                    cards: [
-                        {
-                            title: 'Budget and Fiscal Analysis',
-                            url: 'http://otcads.umd.edu/bfa/',
-                            image:'timeentry.png',
-                            alt: 'Go to Budget and Fiscal Analysis'
-                        }
-							]
-				},
-				{
-                name: 'Data Administration',
-                    cards: [
-                        {
-                            title: 'Data Administration',
-                            url: 'https://umd.service-now.com/itsupport?id=service&service=4f1aee7f37ae228041271f9543990ece',
-                            image:'timeentry.png',
-                            alt: 'Go to Data Administration'
-                        }
-							]
-				},
-				{
-                name: 'Electronic Forms',
-                    cards: [
-                        {
-                            title: 'Electronic Forms',
-                            url: 'https://elf.umd.edu/elf',
-                            image:'timeentry.png',
-                            alt: 'Go to Electronic Forms'
-                        }
-							]
-				},
-				{
-                name: 'Financial Records System',
-                    cards: [
-                        {
-                            title: 'Financial Records System',
-                            url: 'https://otc-1.umd.edu/frsweb',
-                            image:'timeentry.png',
-                            alt: 'Go to Financial Records System'
-                        }
-							]
-				},
-				{
-                name: 'Interface Reconciliation System',
-                    cards: [
-                        {
-                            title: 'Interface Reconciliation System',
-                            url: 'https://otc-2.umd.edu/irsweb/StartingIRS.jsp',
-                            image:'timeentry.png',
-                            alt: 'Go to Interface Reconciliation System'
-                        }
-							]
-				},
-				{
-                name: 'Kuali Financial System (KFS)',
-                    cards: [
-                        {
-                            title: 'Kuali Financial System (KFS)',
-                            url: 'http://kualifinancial.umd.edu/',
-                            image:'timeentry.png',
-                            alt: 'Go to Kuali Financial System (KFS)'
-                        }
-							]
-				},
-				{
-                name: 'SIS Reports',
-                    cards: [
-                        {
-                            title: 'SIS Reports',
-                            url: 'https://app.testudo.umd.edu/sisreports',
-                            image:'timeentry.png',
-                            alt: 'Go to SIS Reports'
-                        }
-							]
-				},
-				{
-                name: 'Student Award System',
-                    cards: [
-                        {
-                            title: 'Student Award System',
-                            url: 'http://eso.umd.edu/osfa-ares/',
-                            image:'timeentry.png',
-                            alt: 'Student Award System'
-                        }
-							]
-				},
-				{
-                name: 'UM3270',
-                    cards: [
-                        {
-                            title: 'UM3270',
-                            url: 'https://um3270.umd.edu/servlet',
-                            image:'timeentry.png',
-                            alt: 'UM3270'
-                        }
-							]
-				},
-				{
-                name: 'PHR Service Office & Registrar Reports',
-                    cards: [
-                        {
-                            title: 'PHR Service Office & Registrar Reports',
-                            url: 'https://umd.service-now.com/itsupport?id=service&service=b93df83f3708c20041271f9543990e84&t=so&cat_id=d41580fc6f16e20051281ecbbb3ee4cb',
-                            image:'timeentry.png',
-                            alt: 'Go to PHR Service Office & Registrar Reports'
-                        }
-							]
-				},
 				{
                 name: 'Procurement',
                     cards: [
@@ -342,7 +222,8 @@ $(document).ready(function () {
 				},
 				{
                 name: 'Effort Reporting',
-                    cards: [
+                    cards: 
+					[
                         {
                             title: 'Administrator Access',
                             url: 'https://phr.umd.edu/phrA21Effortweb/A21Effort?action=selsec',
@@ -373,7 +254,79 @@ $(document).ready(function () {
                             image:'timeentry.png',
                             alt: 'Go to Quick Reference Guide'
                         }
-							]
+					]
+				},
+				{
+				name: 'Other',
+					cards: 
+						[
+							{
+							title: 'PHR Service Office & Registrar Reports',
+							url: 'https://umd.service-now.com/itsupport?id=service&service=b93df83f3708c20041271f9543990e84&t=so&cat_id=d41580fc6f16e20051281ecbbb3ee4cb',
+							image:'timeentry.png',
+							alt: 'Go to PHR Service Office & Registrar Reports'
+							},
+							{
+								title: 'UM3270',
+								url: 'https://um3270.umd.edu/servlet',
+								image:'timeentry.png',
+								alt: 'UM3270'
+							},
+							{
+								title: 'Student Award System',
+								url: 'http://eso.umd.edu/osfa-ares/',
+								image:'timeentry.png',
+								alt: 'Student Award System'
+							},
+							{
+								title: 'SIS Reports',
+								url: 'https://app.testudo.umd.edu/sisreports',
+								image:'timeentry.png',
+								alt: 'Go to SIS Reports'
+							},
+							{
+								title: 'Kuali Financial System (KFS)',
+								url: 'http://kualifinancial.umd.edu/',
+								image:'timeentry.png',
+								alt: 'Go to Kuali Financial System (KFS)'
+							},
+													{
+								title: 'Interface Reconciliation System',
+								url: 'https://otc-2.umd.edu/irsweb/StartingIRS.jsp',
+								image:'timeentry.png',
+								alt: 'Go to Interface Reconciliation System'
+							},
+													{
+								title: 'Financial Records System',
+								url: 'https://otc-1.umd.edu/frsweb',
+								image:'timeentry.png',
+								alt: 'Go to Financial Records System'
+							},
+													{
+								title: 'Electronic Forms',
+								url: 'https://elf.umd.edu/elf',
+								image:'timeentry.png',
+								alt: 'Go to Electronic Forms'
+							},
+							{
+								title: 'Data Administration',
+								url: 'https://umd.service-now.com/itsupport?id=service&service=4f1aee7f37ae228041271f9543990ece',
+								image:'timeentry.png',
+								alt: 'Go to Data Administration'
+							},
+							{
+								title: 'Budget and Fiscal Analysis',
+								url: 'http://otcads.umd.edu/bfa/',
+								image:'timeentry.png',
+								alt: 'Go to Budget and Fiscal Analysis'
+							},
+							{
+								title: 'Advisor Services',
+								url: 'http://www.sis.umd.edu/catt',
+								image:'timeentry.png',
+								alt: 'Go to Advisor Services'
+							}
+						]
 				}
             ]
         }
